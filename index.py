@@ -4,8 +4,8 @@ import requests
 app = Flask(__name__)
 
 # Замените на свои значения
-TOKEN = '6085931159:AAFjUMzs7bS6Wvkf-p4jxuDBUzNu09DZ-O8'
-CHAT_ID = '1129521727'
+TOKEN = 6085931159:AAFjUMzs7bS6Wvkf-p4jxuDBUzNu09DZ-O8
+CHAT_ID = 1129521727
 
 @app.route('/telegram', methods=['POST'])
 def send_to_telegram():
